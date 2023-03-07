@@ -13,6 +13,8 @@
 		789E1F0A29B637BF002EE8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789E1F0829B637BF002EE8C9 /* Main.storyboard */; };
 		789E1F0C29B637BF002EE8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789E1F0B29B637BF002EE8C9 /* Assets.xcassets */; };
 		789E1F0F29B637BF002EE8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789E1F0D29B637BF002EE8C9 /* LaunchScreen.storyboard */; };
+		789E1F1729B74E69002EE8C9 /* TahminEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E1F1629B74E69002EE8C9 /* TahminEkraniVC.swift */; };
+		789E1F1929B74EBB002EE8C9 /* SonucEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E1F1829B74EBB002EE8C9 /* SonucEkraniVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		789E1F0B29B637BF002EE8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		789E1F0E29B637BF002EE8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		789E1F1029B637BF002EE8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789E1F1629B74E69002EE8C9 /* TahminEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahminEkraniVC.swift; sourceTree = "<group>"; };
+		789E1F1829B74EBB002EE8C9 /* SonucEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkraniVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				789E1F0229B637BE002EE8C9 /* AppDelegate.swift */,
 				789E1F0429B637BE002EE8C9 /* SceneDelegate.swift */,
 				789E1F0629B637BF002EE8C9 /* ViewController.swift */,
+				789E1F1629B74E69002EE8C9 /* TahminEkraniVC.swift */,
+				789E1F1829B74EBB002EE8C9 /* SonucEkraniVC.swift */,
 				789E1F0829B637BF002EE8C9 /* Main.storyboard */,
 				789E1F0B29B637BF002EE8C9 /* Assets.xcassets */,
 				789E1F0D29B637BF002EE8C9 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789E1F1929B74EBB002EE8C9 /* SonucEkraniVC.swift in Sources */,
 				789E1F0729B637BF002EE8C9 /* ViewController.swift in Sources */,
 				789E1F0329B637BE002EE8C9 /* AppDelegate.swift in Sources */,
 				789E1F0529B637BE002EE8C9 /* SceneDelegate.swift in Sources */,
+				789E1F1729B74E69002EE8C9 /* TahminEkraniVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
